@@ -1,0 +1,35 @@
+.personalCard {
+    padding: 15px 25px;
+}
+
+.personalCard > div > section {
+    display: flex;
+    justify-content: center;
+}
+
+.personalCard > div section > button {
+    padding: 0 12px;
+    border-width: 1px;
+}
+.personalCard > div section > button.left {
+    border-radius: 0 21px 21px 0;
+}
+.personalCard > div section > button.right {
+    border-radius: 21px 0 0 21px;
+}
+
+.personalCard textarea {
+    width: 100%;
+    min-height: 150px;
+    resize: none;
+}
+
+.Approve {
+    background-color: #4cdf44;
+}
+.Reject {
+    background-color: #ff0000;
+}
+.Pandding {
+    background-color: #928d8d;
+}

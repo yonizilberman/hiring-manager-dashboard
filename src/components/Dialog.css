@@ -1,0 +1,44 @@
+.dialogBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: #3434349e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.dialogBody {
+    max-width: 550px;
+    width: 50vw;
+    min-width: 350px;
+    min-height: 50vh;
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    top: 25vh;
+}
+
+.dialogHeader {
+    padding: 0 8px;
+    line-height: 46px;
+    font-size: 16px;
+    border-bottom: 1px solid #282c34;
+    display: flex;
+    justify-content: space-between;
+}
+.dialogHeader > .close {
+    cursor: pointer;
+}
+.dialogBody > section {
+    padding: 6px 8px;
+}
+
+@media (max-width: 550px) {
+    .dialogBody {
+        width: 100vw;
+        min-height: 100vh;
+        position: fixed;
+        top: 0;
+    }
+}
